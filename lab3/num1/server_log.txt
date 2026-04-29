@@ -1,0 +1,6 @@
+ERROR: Disk full
+ERROR: Disk full
+INFO: User connected
+INFO: User connected
+INFO: User connected
+WARNING: High memory usage
