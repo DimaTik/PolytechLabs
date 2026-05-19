@@ -8,10 +8,6 @@ min_decline_rows = []
 
 for country in df["Country"].unique():
     one_country = df[df["Country"] == country]
-
-    if len(one_country) == 0:
-        continue
-
     min_index = one_country["Growth Rate (%)"].idxmin()
     min_row = one_country.loc[min_index]
     min_decline_rows.append(min_row)
